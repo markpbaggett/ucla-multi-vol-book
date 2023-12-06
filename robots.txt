@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://markpbaggett.github.io/ucla-multi-vol-book
+
+# Sitemaps
+Sitemap: https://markpbaggett.github.io/ucla-multi-vol-book/sitemap.xml
