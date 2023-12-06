@@ -121,19 +121,6 @@ module.exports.build = async (env) => {
         }),
       });
 
-      manifest.metadata.forEach((metadata) => {
-        const metadataLabel = getEntries(metadata.label)[0];
-        const metadataValues = getEntries(metadata.value);
-        if (env?.metadata?.includes(metadataLabel)) {
-          metadataValues.forEach((value) => {
-            canopyMetadata.push({
-              index: manifest.index,
-              label: metadataLabel,
-              value,
-            });
-          });
-        }
-      });
     });
 
   log(`\nCreating facets as IIIF Collections...\n`);
