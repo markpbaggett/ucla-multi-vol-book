@@ -1,0 +1,10 @@
+{
+  "collection": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz14b8mc0",
+  "devCollection": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz14b8mc0",
+  "featured": [
+  ],
+  "label": { "none": ["Multipart Test"] },
+  "summary": {
+    "none": ["Brief description of the site and its contents."]
+  }
+}
