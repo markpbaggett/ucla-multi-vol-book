@@ -113,7 +113,7 @@ module.exports.build = async (env) => {
         label: manifest?.label,
         ...(settings?.summary?.enabled && { summary: manifest.summary }),
         ...(settings?.metadata?.enabled && {
-          metadata: manifest.metadata.filter((entry) =>
+          metadata: manifest.metadata?.filter((entry) =>
             settings.metadata.all
               ? entry
               : env.metadata.includes(getEntries(entry.label)[0])
