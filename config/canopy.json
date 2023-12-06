@@ -6,52 +6,5 @@
   "label": { "none": ["Multipart Test"] },
   "summary": {
     "none": ["Brief description of the site and its contents."]
-  },
-  {
-  "collection": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz14b8mc0",
-  "devCollection": "https://iiif.library.ucla.edu/collections/ark%3A%2F21198%2Fz14b8mc0",
-  "featured": [
-  ],
-  "label": { "none": ["Multipart Test"] },
-  "summary": {
-    "none": ["Brief description of the site and its contents."]
-  },
-  "search": {
-    "enabled": false,
-    "flexSearch": {
-      "charset": "latin:extra",
-      "optimize": true,
-      "tokenize": "strict",
-      "bidirectional": false,
-      "document": {
-        "index": [
-          {
-            "field": "label",
-            "tokenize": "full",
-            "resolution": 9,
-            "depth": 3,
-            "bidirectional": true
-          },
-          {
-            "field": "metadata",
-            "resolution": 2
-          },
-          {
-            "field": "summary",
-            "resolution": 1
-          }
-        ]
-      }
-    },
-    "index": {
-      "metadata": {
-        "enabled": false,
-        "all": false
-      },
-      "summary": {
-        "enabled": false
-      }
-    }
   }
-}
 }
